@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "KKU Campus Event Activity",
+    "slug": "kku-campus-event-activity",
+    "scheme": "kkucampusevent",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/kku_nong_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/kku_nong_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#A73B24"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#A73B24",
+        "foregroundImage": "./assets/kku_nong_logo.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

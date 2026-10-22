@@ -6,4 +6,4 @@ dist/
 *.log
 backend/uploads/*
 !backend/uploads/.gitkeep
-mobile/
+
