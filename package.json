@@ -1,0 +1,18 @@
+{
+  "name": "kku-campus-event-activity",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix mobile run start",
+    "mobile": "npm --prefix mobile run start",
+    "backend": "npm --prefix backend run dev",
+    "seed": "npm --prefix backend run seed"
+  },
+  "dependencies": {
+    "expo": "^57.0.26"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.4",
+    "typescript": "~6.0.3"
+  }
+}
